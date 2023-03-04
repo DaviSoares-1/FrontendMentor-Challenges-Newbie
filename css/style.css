@@ -1,0 +1,162 @@
+/* Colors */
+
+:root {
+  --darkCyan: hsl(158, 36%, 37%);
+  --cream: hsl(30, 38%, 92%);
+  --darkBlue: hsl(212, 21%, 14%);
+  --grayishBlue: hsl(228, 12%, 48%);
+  --white: hsl(0, 0%, 100%);
+}
+
+/* CSS Reset */
+
+* {
+  margin: 0;
+}
+
+/* Overall Styles - Desktop */
+
+body {
+  background: var(--cream);
+}
+
+.attribution {
+  text-align: center;
+  margin-top: -100px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  max-width: 620px;
+  padding: 20px;
+  margin: 200px auto;
+}
+
+.container-items {
+  display: grid;
+  background: var(--white);
+  padding: 15px 30px;
+  align-items: center;
+  text-align: left;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.heading,
+.labelPrice {
+  font-family: "Fraunces", serif;
+}
+
+.description,
+.buyBtn {
+  font-family: "Montserrat", sans-serif;
+}
+
+.heading {
+  color: var(--darkBlue);
+  line-height: 1;
+  max-width: 9ch;
+  font-size: 2rem;
+}
+
+.heading::before {
+  content: "perfume";
+  font-family: "Montserrat", sans-serif;
+  color: var(--grayishBlue);
+  display: block;
+  font-size: 13px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+  margin-bottom: 25px;
+}
+
+.description {
+  color: var(--grayishBlue);
+  line-height: 1.5em;
+  font-size: 14px;
+  max-width: 240px;
+}
+
+.labelPrice {
+  color: var(--darkCyan);
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+}
+
+.labelPrice::after {
+  content: "$169.99";
+  text-decoration: line-through;
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  color: var(--grayishBlue);
+  margin-left: 20px;
+}
+
+.buyBtn {
+  text-decoration: none;
+  color: var(--white);
+  background: var(--darkCyan);
+  padding: 1rem 2rem;
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s;
+}
+
+.buyBtn::before {
+  content: url("../img/icon-cart.svg");
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.buyBtn:hover {
+  background: #244c3d;
+}
+
+/* Mobile Responsive */
+
+@media (max-width: 650px) {
+  .container {
+    grid-template-columns: 1fr;
+    max-width: 350px;
+  }
+
+  .container img {
+    content: url("../img/image-product-mobile.jpg");
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 0;
+  }
+
+  .container-items {
+    padding: 25px;
+    gap: 20px;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+
+  .heading,
+  .description,
+  .buyBtn {
+    max-width: 360px;
+  }
+
+  .heading:before {
+    margin-bottom: 15px;
+  }
+}
