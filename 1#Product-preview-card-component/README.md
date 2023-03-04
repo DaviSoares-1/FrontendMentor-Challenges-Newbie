@@ -23,7 +23,7 @@ Users should be able to:
 
 ### 📷 Screenshot
 
-![](./screenshot.jpg)
+![](screenshot.png)
 
 ### Links
 
@@ -42,6 +42,6 @@ This project was built with the following technologies:
 - Mobile-first workflow
 - Git e Github
 
-## Author
+## 👨‍💻 Author
 
 - Frontend Mentor - [@DaviSoares-1](https://www.frontendmentor.io/profile/DaviSoares-1)
