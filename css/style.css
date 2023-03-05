@@ -18,6 +18,9 @@
 
 body {
   background: var(--cream);
+  display: grid;
+  height: 100vh;
+  place-items: center;
 }
 
 .attribution {
@@ -37,7 +40,6 @@ img {
   grid-template-columns: repeat(2, 1fr);
   max-width: 620px;
   padding: 20px;
-  margin: 200px auto;
 }
 
 .container-items {
