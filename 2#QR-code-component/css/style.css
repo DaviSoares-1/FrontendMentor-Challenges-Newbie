@@ -1,0 +1,84 @@
+:root {
+  --White: hsl(0, 0%, 100%);
+  --LightGray: hsl(212, 45%, 89%);
+  --GrayishBlue: hsl(220, 15%, 55%);
+  --DarkBlue: hsl(218, 44%, 22%);
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  font-family: 'Outfit', sans-serif;
+  background: var(--LightGray);
+  display: grid;
+  height: 100vh;
+  place-items: center;
+  background: linear-gradient(to top left, #d6e2f0, #2c7dfa);
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.container {
+  background: var(--White);
+  padding: 15px 15px 40px;
+  max-width: 300px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.container-header,
+.container-description {
+  text-align: center;
+  flex: 1;
+}
+
+.container-header {
+  color: var(--DarkBlue);
+  max-width: 20ch;
+  line-height: 1.25;
+}
+
+.container-description {
+  color: var(--GrayishBlue);
+  font-size: 0.9375rem;
+  max-width: 25ch;
+  line-height: 1.33;
+}
+
+a {
+  text-decoration: none;
+  color: var(--DarkBlue);
+  font-weight: bold;
+  position: relative;
+  padding: 10px 20px;
+  display: inline-block;
+  transition: 0.3s;
+}
+
+a::after,
+a::before {
+  content: "";
+  display: block;
+  width: 2px;
+  height: 25px;
+  background: var(--LightGray);
+  position: absolute;
+  top: 5px;
+  left: 5px;
+}
+
+a:hover {
+  text-decoration: underline dashed var(--GrayishBlue);
+  transform: scale(120%, 120%);
+}
