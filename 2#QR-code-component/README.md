@@ -24,7 +24,7 @@ A perfect first challenge if you're new to HTML and CSS. The card layout doesn't
 
 ### 🌐 Links
 
-- Solution URL: [](https://your-solution-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/product-preview-card-component-using-flexbox-wfzivPIP5W]
 - Live Site URL: [https://simple-qrcode-card.netlify.app/]
 
 ## My process
