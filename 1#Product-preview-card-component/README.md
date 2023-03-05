@@ -16,6 +16,8 @@ This is a solution to the [Product preview card component challenge on Frontend 
 
 ### ⛰️ The challenge
 
+This HTML & CSS-only challenge will be perfect for anyone starting to build responsive projects.
+
 Users should be able to:
 
 - View the optimal layout depending on their device's screen size
@@ -26,7 +28,7 @@ Users should be able to:
 ![](screenshot.png)
 ![](screenshot2.png)
 
-### Links
+### 🌐 Links
 
 - Solution URL: [https://www.frontendmentor.io/solutions/product-preview-card-component-using-css-grid-and-flexbox-vFz_GA-8UZ]
 - Live Site URL: [https://perfume-component.netlify.app]
