@@ -1,0 +1,202 @@
+/* CSS Reset & variables */
+:root {
+  --SoftBlue: hsl(215, 51%, 70%);
+  --Cyan: hsl(178, 100%, 50%);
+  --mainBG: hsl(217, 54%, 11%);
+  --cardBG: hsl(216, 50%, 16%);
+  --lineColor: hsl(215, 32%, 27%);
+  --White: hsl(0, 0%, 100%);
+}
+
+* {
+  margin: 0px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  background: var(--mainBG);
+  display: grid;
+  height: 100vh;
+  place-items: center;
+}
+
+/* NFT Card Styles */
+
+.container {
+  max-width: 300px;
+  background: var(--cardBG);
+  padding: 24px 24px 40px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 20px;
+  border-radius: 16px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.imgFilter {
+  width: 300px;
+  height: 300px;
+  opacity: 0;
+  border-radius: 8px;
+  background: var(--Cyan);
+  position: absolute;
+  display: flex;
+  transition: 0.3s;
+}
+
+.imgFilter::after {
+  content: "";
+  display: block;
+  width: 48px;
+  height: 48px;
+  background: url("../images/icon-view.svg") no-repeat center;
+  margin: auto;
+}
+
+.imgFilter:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.container-heading {
+  color: var(--White);
+  font-size: 1.375rem;
+  line-height: 1.25;
+  flex: 1;
+  transition: 0.3s;
+  text-decoration: none;
+}
+
+.container-heading:hover {
+  color: var(--Cyan);
+  cursor: pointer;
+}
+
+.container-description {
+  color: var(--SoftBlue);
+  font-size: 1.125rem;
+  line-height: 1.33;
+  font-weight: 300;
+}
+
+.container-info {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.container-info span:first-child {
+  color: var(--Cyan);
+  font-weight: 600;
+  margin-left: 20px;
+}
+
+.container-info span:last-child {
+  color: var(--SoftBlue);
+}
+
+.container-info span:first-child,
+.container-info span:last-child {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.container-info span:first-child::before {
+  content: "";
+  display: inline-block;
+  background: url("../images/icon-ethereum.svg") no-repeat center;
+  width: 11px;
+  height: 18px;
+  position: absolute;
+  left: -20px;
+}
+
+.container-info span:last-child::before {
+  content: "";
+  display: inline-block;
+  background: url("../images/icon-clock.svg") no-repeat center;
+  width: 17px;
+  height: 17px;
+  position: absolute;
+  left: -25px;
+}
+
+.container-info::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 1px;
+  border-radius: 4px;
+  background: var(--lineColor);
+  position: absolute;
+  bottom: -20px;
+}
+
+.container-person {
+  color: var(--SoftBlue);
+  margin-top: 24px;
+  margin-left: 50px;
+  position: relative;
+}
+
+.container-person strong {
+  color: var(--White);
+  font-weight: 300;
+  transition: 0.3s;
+}
+
+.container-person strong:hover {
+  color: var(--Cyan);
+  cursor: pointer;
+}
+
+.container-person::before {
+  content: "";
+  display: block;
+  background: url("../images/image-avatar.png") no-repeat center;
+  width: 132px;
+  height: 132px;
+  transform: scale(25%, 25%);
+  position: absolute;
+  left: -100px;
+  top: -60px;
+  border: 3px solid var(--White);
+  border-radius: 50%;
+}
+
+a {
+  text-decoration: none;
+  color: var(--SoftBlue);
+  font-weight: 600;
+  position: relative;
+  padding: 10px 20px;
+  display: inline-block;
+  transition: 0.3s;
+}
+
+a::after,
+a::before {
+  content: "";
+  display: block;
+  width: 2px;
+  height: 25px;
+  background: var(--Cyan);
+  position: absolute;
+  top: 5px;
+  left: 5px;
+}
+
+a:hover {
+  text-decoration: underline dashed var(--White);
+  transform: scale(120%, 120%);
+}
