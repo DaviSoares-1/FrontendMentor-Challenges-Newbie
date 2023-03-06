@@ -55,7 +55,7 @@
         </tr>
         <tr>
             <td>03</td>
-            <td><a href="https://github.com/DaviSoares-1/Frontend-Mentor--Challenges/tree/main/3%23NFT-preview-card-component">QR code component </a></td>
+            <td><a href="https://github.com/DaviSoares-1/Frontend-Mentor--Challenges/tree/main/3%23NFT-preview-card-component">NFT code component </a></td>
             <td>06/03/23</td>
             <td align="center">
             <a href="https://github.com/DaviSoares-1/Frontend-Mentor--Challenges/tree/main/3%23NFT-preview-card-component"><img width="300px" src="https://github.com/DaviSoares-1/Frontend-Mentor--Challenges/blob/main/3%23NFT-preview-card-component/screenshot.png" /></a></td>
