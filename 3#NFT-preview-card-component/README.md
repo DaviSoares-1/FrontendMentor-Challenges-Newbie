@@ -24,7 +24,7 @@ This HTML & CSS only challenge is perfect for anyone just starting out or anyone
 
 ### 🌐 Links
 
-- Solution URL: []
+- Solution URL: [https://www.frontendmentor.io/solutions/nft-preview-card-using-css3s-flex-FMcttUbPtq]
 - Live Site URL: [https://nft-simple-card.netlify.app/]
 
 ## My process
