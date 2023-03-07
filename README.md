@@ -44,7 +44,7 @@
             <td><a href="https://github.com/DaviSoares-1/Frontend-Mentor--Challenges/tree/main/1%23Product-preview-card-component">Product preview card component </a></td>
             <td>05/03/23</td>
             <td align="center">
-            <a href="https://github.com/DaviSoares-1/Frontend-Mentor--Challenges/tree/main/1%23Product-preview-card-component"><img width="300px" src="https://github.com/DaviSoares-1/Frontend-Mentor--Challenges/blob/main/1%23Product-preview-card-component/screenshot2.png /></a></td>
+            <a href="https://github.com/DaviSoares-1/Frontend-Mentor--Challenges/tree/main/1%23Product-preview-card-component"><img width="300px" src="https://github.com/DaviSoares-1/Frontend-Mentor--Challenges/blob/main/1%23Product-preview-card-component/screenshot2.png" /></a></td>
         </tr>
         <tr>
             <td>02</td>
