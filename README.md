@@ -60,6 +60,13 @@
             <td align="center">
             <a href="https://github.com/DaviSoares-1/Frontend-Mentor--Challenges/tree/main/3%23NFT-preview-card-component"><img width="300px" src="https://github.com/DaviSoares-1/Frontend-Mentor--Challenges/blob/main/3%23NFT-preview-card-component/screenshot.png" /></a></td>
         </tr>
+        <tr>
+            <td>04</td>
+            <td><a href="https://github.com/DaviSoares-1/Frontend-Mentor--Challenges/tree/main/4%23Order-summary-component">Order summary card </a></td>
+            <td>07/03/23</td>
+            <td align="center">
+            <a href="https://github.com/DaviSoares-1/Frontend-Mentor--Challenges/tree/main/4%23Order-summary-component"><img width="300px" src="https://github.com/DaviSoares-1/Frontend-Mentor--Challenges/blob/main/4%23Order-summary-component/screenshot.png" /></a></td>
+        </tr>
     </tbody>
 </table></p>
 
