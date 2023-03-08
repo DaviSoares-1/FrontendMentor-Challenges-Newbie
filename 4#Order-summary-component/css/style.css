@@ -1,0 +1,208 @@
+/* CSS Resets and variables */
+
+:root {
+  --PaleBlue: hsl(225, 100%, 94%);
+  --BrightBlue: hsl(245, 75%, 52%);
+  --VeryPaleBlue: hsl(225, 100%, 98%);
+  --DesaturatedBlue: hsl(224, 23%, 55%);
+  --DarkBlue: hsl(223, 47%, 23%);
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+a {
+  display: block;
+}
+
+body {
+  font-family: "Red Hat Display", sans-serif;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  background: url("../images/pattern-background-desktop.svg") no-repeat top
+    center;
+  background-color: var(--PaleBlue);
+  text-align: center;
+}
+
+/* Border-radius: border-top-left-radius /  border-top-right-radius / border-bottom-right-radius / border-bottom-left-radius */
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-radius: 20px 20px 0px 0px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+/* Order summary card Styles */
+
+.container {
+  max-width: 500px;
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.5);
+}
+
+.container-spacing {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 20px 30px;
+  flex: 1;
+  gap: 20px;
+}
+
+.container-heading {
+  color: var(--DarkBlue);
+  font-weight: 900;
+  line-height: 1;
+  font-size: 1.75rem;
+}
+
+.container-description {
+  color: var(--DesaturatedBlue);
+  line-height: 1.65;
+  max-width: 30ch;
+}
+
+.container-plans {
+  background: var(--VeryPaleBlue);
+  padding: 24px 32px;
+  width: 70%;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.label-plan {
+  color: var(--DarkBlue);
+  font-weight: 900;
+  margin-left: 60px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.label-plan::after {
+  content: "$59.99/year";
+  display: block;
+  color: var(--DesaturatedBlue);
+  font-weight: 500;
+}
+
+.label-plan::before {
+  content: "";
+  display: block;
+  background: url("../images/icon-music.svg") no-repeat center;
+  width: 48px;
+  height: 48px;
+  position: absolute;
+  left: -70px;
+}
+
+.change-plan,
+.Payment-btn,
+.Cancel-order {
+  transition: 0.3s all ease-in-out;
+}
+
+.change-plan {
+  font-size: 0.875rem;
+  font-weight: 700;
+  padding: 1rem;
+  width: 10px;
+  margin-right: 20px;
+  color: var(--BrightBlue);
+}
+
+.change-plan:hover {
+  color: #786de6;
+  text-decoration: none;
+}
+
+.Payment-btn {
+  text-decoration: none;
+  background: var(--BrightBlue);
+  color: #fff;
+  padding: 0.9rem 6.2rem;
+  line-height: 1.25;
+  font-weight: 700;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.Payment-btn:hover {
+  background: #786de6;
+}
+
+.Cancel-order {
+  text-decoration: none;
+  color: var(--DesaturatedBlue);
+  font-weight: 700;
+  padding: 1rem;
+  margin-top: -5px;
+  transition: 0.3s all ease-in-out;
+}
+
+.Cancel-order:hover {
+  color: var(--DarkBlue);
+}
+
+.attribution a {
+  text-decoration: none;
+  color: var(--DarkBlue);
+  font-weight: 600;
+  position: relative;
+  padding: 10px 20px;
+  display: inline-block;
+  transition: 0.3s all ease-in-out;
+}
+
+.attribution a::after,
+a::before {
+  content: "";
+  display: block;
+  width: 2px;
+  height: 25px;
+  background: var(--BrightBlue);
+  position: absolute;
+  top: 5px;
+  left: 5px;
+}
+
+.attribution a:hover {
+  text-decoration: underline dashed var(--DesaturatedBlue);
+  transform: scale(120%, 120%);
+}
+
+@media (max-width: 500px) {
+  body {
+    background: url("../images/pattern-background-mobile.svg") no-repeat top
+      center contain;
+  }
+
+  .container {
+    max-width: 375px;
+  }
+
+  .container-spacing {
+    padding: 50px 0px 30px;
+  }
+
+  .container-plans {
+    background: var(--VeryPaleBlue);
+    padding: 24px 32px;
+  }
+
+  .Payment-btn {
+    padding: 0.9rem 4rem;
+  }
+}
