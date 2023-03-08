@@ -24,8 +24,8 @@ A perfect project for newbies who are starting to build confidence with layouts!
 
 ### 🌐 Links
 
-- Solution URL: []
-- Live Site URL: []
+- Solution URL: [https://www.frontendmentor.io/solutions/order-summary-component-using-css3flex-JrSymifq7e]
+- Live Site URL: [https://order-subscription-card.netlify.app/]
 
 ## My process
 
