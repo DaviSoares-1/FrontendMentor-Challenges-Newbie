@@ -25,8 +25,8 @@ This is a great small challenge to help get you used to building to a design. Th
 
 ### 🌐 Links
 
-- Solution URL: []
-- Live Site URL: []
+- Solution URL: [https://www.frontendmentor.io/solutions/responsive-stats-preview-card-using-css3-flex-and-grid-rMLSYAGFKK]
+- Live Site URL: [https://stats-product-card.netlify.app/]
 
 ## My process
 
