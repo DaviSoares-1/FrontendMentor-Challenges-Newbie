@@ -74,6 +74,13 @@
             <td align="center">
             <a href="https://github.com/DaviSoares-1/Frontend-Mentor--Challenges/tree/main/5%23Stats-preview-card-component"><img width="300px" src="https://github.com/DaviSoares-1/Frontend-Mentor--Challenges/blob/main/5%23Stats-preview-card-component/screenshot.png" /></a></td>
         </tr>
+         <tr>
+            <td>06</td>
+            <td><a href="https://github.com/DaviSoares-1/Frontend-Mentor--Challenges/tree/main/6%233-Column-preview-card-component">3-Column preview card </a></td>
+            <td>16/03/23</td>
+            <td align="center">
+            <a href="https://github.com/DaviSoares-1/Frontend-Mentor--Challenges/tree/main/6%233-Column-preview-card-component"><img width="300px" src="https://github.com/DaviSoares-1/Frontend-Mentor--Challenges/blob/main/6%233-Column-preview-card-component/screenshot2.png" /></a></td>
+        </tr>
     </tbody>
 </table></p>
 
