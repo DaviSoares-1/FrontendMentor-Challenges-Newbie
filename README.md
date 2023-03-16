@@ -51,35 +51,35 @@
             <td><a href="https://github.com/DaviSoares-1/Frontend-Mentor--Challenges/tree/main/2%23QR-code-component">QR code component </a></td>
             <td>05/03/23</td>
             <td align="center">
-            <a href="https://github.com/DaviSoares-1/Frontend-Mentor--Challenges/tree/main/2%23QR-code-component"><img width="300px" src="https://github.com/DaviSoares-1/Frontend-Mentor--Challenges/blob/main/2%23QR-code-component/screenshot.png" /></a></td>
+            <a href="https://github.com/DaviSoares-1/Frontend-Mentor--Challenges/tree/main/2%23QR-code-component"><img width="300px" src="https://github.com/DaviSoares-1/Frontend-Mentor--Challenges/blob/main/2%23QR-code-component/qrcode-preview.jpg" /></a></td>
         </tr>
         <tr>
             <td>03</td>
             <td><a href="https://github.com/DaviSoares-1/Frontend-Mentor--Challenges/tree/main/3%23NFT-preview-card-component">NFT code component </a></td>
             <td>06/03/23</td>
             <td align="center">
-            <a href="https://github.com/DaviSoares-1/Frontend-Mentor--Challenges/tree/main/3%23NFT-preview-card-component"><img width="300px" src="https://github.com/DaviSoares-1/Frontend-Mentor--Challenges/blob/main/3%23NFT-preview-card-component/screenshot.png" /></a></td>
+            <a href="https://github.com/DaviSoares-1/Frontend-Mentor--Challenges/tree/main/3%23NFT-preview-card-component"><img width="300px" src="https://github.com/DaviSoares-1/Frontend-Mentor--Challenges/blob/main/3%23NFT-preview-card-component/NFT-card-preview.jpg" /></a></td>
         </tr>
         <tr>
             <td>04</td>
             <td><a href="https://github.com/DaviSoares-1/Frontend-Mentor--Challenges/tree/main/4%23Order-summary-component">Order summary card </a></td>
             <td>07/03/23</td>
             <td align="center">
-            <a href="https://github.com/DaviSoares-1/Frontend-Mentor--Challenges/tree/main/4%23Order-summary-component"><img width="300px" src="https://github.com/DaviSoares-1/Frontend-Mentor--Challenges/blob/main/4%23Order-summary-component/screenshot.png" /></a></td>
+            <a href="https://github.com/DaviSoares-1/Frontend-Mentor--Challenges/tree/main/4%23Order-summary-component"><img width="300px" src="https://github.com/DaviSoares-1/Frontend-Mentor--Challenges/blob/main/4%23Order-summary-component/order-summary-preview.jpg" /></a></td>
         </tr>
         <tr>
             <td>05</td>
             <td><a href="https://github.com/DaviSoares-1/Frontend-Mentor--Challenges/tree/main/5%23Stats-preview-card-component">Stats preview card </a></td>
             <td>09/03/23</td>
             <td align="center">
-            <a href="https://github.com/DaviSoares-1/Frontend-Mentor--Challenges/tree/main/5%23Stats-preview-card-component"><img width="300px" src="https://github.com/DaviSoares-1/Frontend-Mentor--Challenges/blob/main/5%23Stats-preview-card-component/screenshot.png" /></a></td>
+            <a href="https://github.com/DaviSoares-1/Frontend-Mentor--Challenges/tree/main/5%23Stats-preview-card-component"><img width="300px" src="https://github.com/DaviSoares-1/Frontend-Mentor--Challenges/blob/main/5%23Stats-preview-card-component/stats-card-preview.jpg" /></a></td>
         </tr>
          <tr>
             <td>06</td>
             <td><a href="https://github.com/DaviSoares-1/Frontend-Mentor--Challenges/tree/main/6%233-Column-preview-card-component">3-Column preview card </a></td>
             <td>16/03/23</td>
             <td align="center">
-            <a href="https://github.com/DaviSoares-1/Frontend-Mentor--Challenges/tree/main/6%233-Column-preview-card-component"><img width="300px" src="https://github.com/DaviSoares-1/Frontend-Mentor--Challenges/blob/main/6%233-Column-preview-card-component/screenshot1.png" /></a></td>
+            <a href="https://github.com/DaviSoares-1/Frontend-Mentor--Challenges/tree/main/6%233-Column-preview-card-component"><img width="300px" src="https://github.com/DaviSoares-1/Frontend-Mentor--Challenges/blob/main/6%233-Column-preview-card-component/3column-card-design.jpg" /></a></td>
         </tr>
     </tbody>
 </table></p>
