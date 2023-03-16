@@ -25,7 +25,7 @@ This challenge is perfect if you're just getting started. The shift between the 
 
 ### 🌐 Links
 
-- Solution URL: []
+- Solution URL: [https://www.frontendmentor.io/solutions/responsive-3columns-preview-card-using-css3-flex-and-grid-t_-zb6LPkw]
 - Live Site URL: [https://3-columns-card-cars.netlify.app/]
 
 ## My process
