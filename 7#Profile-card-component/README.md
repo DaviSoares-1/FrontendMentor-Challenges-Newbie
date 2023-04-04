@@ -24,8 +24,8 @@ The challenge is to build out this profile card component and get it looking as 
 
 ### 🌐 Links
 
-- Solution URL: []
-- Live Site URL: []
+- Solution URL: [https://www.frontendmentor.io/solutions/profile-card-component-using-css-grid-pseudoelementsclasses-DtWaXGhU_s]
+- Live Site URL: [https://profile-card-stats.netlify.app/]
 
 ## My process
 
