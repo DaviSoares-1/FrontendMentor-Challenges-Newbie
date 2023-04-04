@@ -83,7 +83,7 @@
         </tr>
         <tr>
             <td>07</td>
-            <td><a href="https://github.com/DaviSoares-1/Frontend-Mentor--Challenges/tree/main/6%233-Column-preview-card-component">Profile card component</a></td>
+            <td><a href="https://github.com/DaviSoares-1/Frontend-Mentor--Challenges/tree/main/7%23Profile-card-component">Profile card component</a></td>
             <td>04/04/23</td>
             <td align="center">
             <a href="https://github.com/DaviSoares-1/Frontend-Mentor--Challenges/tree/main/7%23Profile-card-component"><img width="300px" src="https://github.com/DaviSoares-1/Frontend-Mentor--Challenges/blob/main/7%23Profile-card-component/desktop-preview.jpg" /></a></td>
