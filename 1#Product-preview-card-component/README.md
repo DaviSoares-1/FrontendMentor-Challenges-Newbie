@@ -23,10 +23,21 @@ Users should be able to:
 - View the optimal layout depending on their device's screen size
 - See hover and focus states for interactive elements
 
-### 📷 Screenshot
+## 🖥 Desktop
 
-![](screenshot.png)
-![](screenshot2.png)
+<h1 align="center">
+    <img alt="Preview Desktop" title="Preview Desktop" src="https://github.com/DaviSoares-1/Frontend-Mentor--Challenges/blob/main/1%23Product-preview-card-component/screenshot.png" />
+</h1>
+
+<br>
+
+## 📱 Mobile
+
+<h1 align="center">
+    <img alt="Preview Mobile" title="Preview Mobile" src="https://github.com/DaviSoares-1/Frontend-Mentor--Challenges/blob/main/1%23Product-preview-card-component/screenshot2.png" />
+</h1>
+
+<br>
 
 ### 🌐 Links
 
