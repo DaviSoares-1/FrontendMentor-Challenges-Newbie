@@ -88,6 +88,13 @@
             <td align="center">
             <a href="https://github.com/DaviSoares-1/Frontend-Mentor--Challenges/tree/main/7%23Profile-card-component"><img width="300px" src="https://github.com/DaviSoares-1/Frontend-Mentor--Challenges/blob/main/7%23Profile-card-component/desktop-preview.jpg" /></a></td>
         </tr>
+        <tr>
+            <td>08</td>
+            <td><a href="https://github.com/DaviSoares-1/FrontendMentor-Challenges-Newbie/tree/main/8%23FAQ-accordion-card">FAQ accordion card</a></td>
+            <td>27/05/23</td>
+            <td align="center">
+            <a href="https://github.com/DaviSoares-1/FrontendMentor-Challenges-Newbie/tree/main/8%23FAQ-accordion-card"><img width="300px" src="https://github.com/DaviSoares-1/FrontendMentor-Challenges-Newbie/blob/main/8%23FAQ-accordion-card/.github/desktop-preview.jpg" /></a></td>
+        </tr>
     </tbody>
 </table></p>
 
