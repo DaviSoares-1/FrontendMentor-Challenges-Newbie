@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Challenge: FAQ accordion card from Frontend Mentor">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | FAQ Accordion Card</title>
+
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+  <script>
+    document.documentElement.classList.add("js")
+  </script>
+</head>
+
+<body>
+  <main class="container">
+    <picture class="container-img">
+      <source media="(max-width: 59.375em)" srcset="./images/illustration-woman-online-mobile.svg">
+      <img src="./images/illustration-woman-online-desktop.svg" alt="woman online illustration">
+    </picture>
+    <article class="container-faq" aria-labelledby="faq-heading">
+      <h1 id="faq-heading" class="faq-heading">FAQ</h1>
+      <dl class="faq-list">
+        <div>
+          <dt><button aria-expanded="false" aria-controls="ask1">How many team members can I invite?</button></dt>
+          <dd id="ask1">You can invite up to 2 additional users on the Free plan. There is no limit on team members for the Premium plan.</dd>
+        </div>
+        <div>
+          <dt><button aria-expanded="false" aria-controls="ask2">What is the maximum file upload size?</button></dt>
+          <dd id="ask2"> No more than 2GB. All files in your account must fit your allotted storage space.</dd>
+        </div>
+        <div>
+          <dt><button aria-expanded="false" aria-controls="ask3">How do I reset my password?</button></dt>
+          <dd id="ask3">Click “Forgot password” from the login page or “Change password” from your profile page. A reset link will be emailed to you.</dd>
+        </div>
+        <div>
+          <dt><button aria-expanded="false" aria-controls="ask4">Can I cancel my subscription?</button></dt>
+          <dd id="ask4">Yes! Send us a message and we'll process your request no questions asked.</dd>
+        </div>
+        <div>
+          <dt><button aria-expanded="false" aria-controls="ask5">Do you provide additional support?</button></dt>
+          <dd id="ask5">Chat and email support is available 24/7. Phone lines are open during normal business hours.</dd>
+        </div>
+      </dl>
+    </article>
+  </main>
+
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io/challenges" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/DaviSoares-1" target="_blank">DaviSoares-1</a> 💜
+  </footer>
+  <script src="./js/script.js"></script>
+</body>
+
+</html>

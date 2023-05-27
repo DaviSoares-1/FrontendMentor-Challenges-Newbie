@@ -1,0 +1,235 @@
+/* CSS Reset and variables */
+
+:root {
+  --color-bg-1: hsl(273, 75%, 66%);
+  --color-bg-2: hsl(240, 73%, 65%);
+  --color-txt-1: hsl(237, 12%, 33%);
+  --color-txt-2: hsl(240, 6%, 50%);
+  --color-txt-3: hsl(238, 29%, 16%);
+  --color-txt-4: hsl(14, 88%, 65%);
+  --color-divider: hsl(240, 5%, 91%);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Kumbh Sans", sans-serif;
+  background-image: linear-gradient(var(--color-bg-1), var(--color-bg-2));
+  display: grid;
+  height: 100vh;
+  place-items: center;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+::-webkit-scrollbar {
+  width: 3px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--color-txt-4);
+  border-radius: 16px;
+}
+
+/* FAQ Card styles */
+
+.container {
+  background-color: #fff;
+  box-shadow: 0px 20px 50px #2a2a5e;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  max-width: 60em;
+  gap: 10px;
+  border-radius: 24px;
+}
+
+/* Illustration image container */
+
+.container-img {
+  background-image: url("../images/bg-pattern-desktop.svg");
+  background-repeat: no-repeat;
+  background-position: left -570px top -300px;
+  height: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.container-img::before {
+  content: "";
+  display: inline-block;
+  background: url("../images/illustration-box-desktop.svg") no-repeat center;
+  width: 191px;
+  height: 184px;
+  left: -95px;
+  bottom: 99px;
+  position: absolute;
+}
+
+.container-img img {
+  height: auto;
+  width: 100%;
+  object-fit: cover;
+  object-position: -80px;
+}
+
+/* FAQ container */
+
+.container-faq {
+  padding-top: 70px;
+  padding-bottom: 90px;
+  max-height: 31.25em;
+  max-width: 23.25em;
+}
+
+.faq-heading {
+  margin-bottom: 32px;
+  font-size: 2rem;
+  color: var(--color-txt-3);
+}
+
+.faq-list {
+  max-height: 16.25em;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding-right: 12px;
+}
+
+.faq-list div {
+  font-size: 0.875rem;
+  color: var(--color-txt-2);
+}
+
+.faq-list button {
+  width: 100%;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--color-txt-1);
+  font-family: inherit;
+  border-bottom: 1px solid var(--color-divider);
+  text-align: left;
+  font-size: 0.9375rem;
+  padding-bottom: 16px;
+  padding-top: 16px;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  transition: color 0.3s;
+}
+
+.faq-list button:hover {
+  color: var(--color-txt-4);
+}
+
+.container-faq button::after {
+  content: "";
+  display: inline-block;
+  width: 10px;
+  height: 7px;
+  background: url("../images/icon-arrow-down.svg") no-repeat center;
+  transition: 0.3s;
+}
+
+button[aria-expanded="true"]::after {
+  transform: rotate(180deg);
+}
+
+.js .faq-list dd {
+  display: none;
+  border-bottom: 1px solid var(--color-divider);
+  padding-bottom: 20px;
+  max-width: 50ch;
+}
+
+.js .faq-list dd.active {
+  display: block;
+}
+
+.faq-list button.changeStyles {
+  color: var(--color-txt-3);
+  font-weight: 700;
+  border-bottom: none;
+}
+
+/* Attributions */
+
+.attribution {
+  place-self: start center;
+  background: var(--color-txt-4);
+  padding: 4px 8px;
+  color: var(--color-txt-3);
+  border-radius: 24px;
+}
+
+a {
+  display: inline-block;
+  color: #fff;
+}
+
+/* Responsive layout query */
+
+@media (max-width: 59.375em) {
+  .container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 180px auto;
+    background-image: url("../images/bg-pattern-mobile.svg");
+    background-repeat: no-repeat;
+    background-position: center top 20px;
+    background-size: 280px;
+    gap: 0px;
+    width: 360px;
+    place-self: end center;
+  }
+
+  .container-img {
+    background: none;
+    justify-content: center;
+    bottom: 110px;
+  }
+
+  .container-img::before {
+    display: none;
+  }
+
+  .container-img img {
+    object-position: initial;
+    width: 300px;
+  }
+
+  .container-faq {
+    padding: 0px 20px 50px;
+    max-height: none;
+    max-width: none;
+  }
+
+  .faq-heading {
+    text-align: center;
+    margin-bottom: 24px;
+  }
+
+  .faq-list {
+    max-height: 15.625em;
+  }
+
+  .faq-list button {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  .attribution {
+    place-self: center;
+  }
+}
