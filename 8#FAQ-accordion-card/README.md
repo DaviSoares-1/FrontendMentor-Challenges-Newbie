@@ -28,20 +28,20 @@ Users should be able to:
 - Hide/Show the answer to a question when the question is clicked
 
 <h1 align="center">
-    <img alt="Preview Desktop" title="Preview Desktop" src="./../.github/screenshot-desktop.png" />
+    <img alt="Preview Desktop" title="Preview Desktop" src="https://github.com/DaviSoares-1/FrontendMentor-Challenges-Newbie/blob/main/8%23FAQ-accordion-card/.github/screenshot-desktop.png" />
 </h1>
 
 <br>
 
 <h1 align="center">
-    <img alt="Preview Mobile" title="Preview Mobile" src="../.github/screenshot-mobile.png" />
+    <img alt="Preview Mobile" title="Preview Mobile" src="https://github.com/DaviSoares-1/FrontendMentor-Challenges-Newbie/blob/main/8%23FAQ-accordion-card/.github/screenshot-mobile.png" />
 </h1>
 
 <br>
 
 ### 🌐 Links
 
-- Solution URL: []
+- Solution URL: [https://www.frontendmentor.io/solutions/faq-accordion-card-css3-vanilla-es6-responsive-acessible-UquHEs-rJm]
 - Live Site URL: [https://accordion-faq-dropdown.netlify.app/]
 
 ## My process
