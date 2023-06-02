@@ -23,17 +23,15 @@ Users should be able to:
 
 - View the optimal layout for the site depending on their device's screen size
 
+### 📷 Screenshot
+
 <h1 align="center">
     <img alt="Preview Desktop" title="Preview Desktop" src="https://github.com/DaviSoares-1/FrontendMentor-Challenges-Newbie/blob/main/9%23Social-proof-section/.github/screenshot-desktop.png" />
 </h1>
 
-<br>
-
 <h1 align="center">
     <img alt="Preview Desktop" title="Preview Desktop" src="https://github.com/DaviSoares-1/FrontendMentor-Challenges-Newbie/blob/main/9%23Social-proof-section/.github/screenshot-tablet.png" />
 </h1>
-
-<br>
 
 <h1 align="center">
     <img alt="Preview Mobile" title="Preview Mobile" src="https://github.com/DaviSoares-1/FrontendMentor-Challenges-Newbie/blob/main/9%23Social-proof-section/.github/screenshot-mobile.png" />
