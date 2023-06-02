@@ -95,6 +95,13 @@
             <td align="center">
             <a href="https://github.com/DaviSoares-1/FrontendMentor-Challenges-Newbie/tree/main/8%23FAQ-accordion-card"><img width="300px" src="https://github.com/DaviSoares-1/FrontendMentor-Challenges-Newbie/blob/main/8%23FAQ-accordion-card/.github/desktop-preview.jpg" /></a></td>
         </tr>
+        <tr>
+            <td>09</td>
+            <td><a href="https://github.com/DaviSoares-1/FrontendMentor-Challenges-Newbie/tree/main/9%23Social-proof-section">Social Proof Section</a></td>
+            <td>02/06/23</td>
+            <td align="center">
+            <a href="https://github.com/DaviSoares-1/FrontendMentor-Challenges-Newbie/tree/main/9%23Social-proof-section"><img width="300px" src="https://github.com/DaviSoares-1/FrontendMentor-Challenges-Newbie/blob/main/9%23Social-proof-section/.github/desktop-preview.jpg" /></a></td>
+        </tr>
     </tbody>
 </table></p>
 
