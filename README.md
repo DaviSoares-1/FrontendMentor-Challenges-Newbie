@@ -1,8 +1,8 @@
-# 🚀 Projetos da plataforma Frontend Mentor
+<h1 align="center"> [⭐] Newbie projects from Frontend Mentor </h1>
 
 <p align="center">
-    Desafios de front-end da Frontend Mentor <br>
-    <a href="https://www.frontendmentor.io/challenges">Acesse os desafios desta plataforma clicando aqui</a><br>
+   🚀 Front-end coding skills boosted and real projects building by Frontend Mentor 🚀 <br>
+    <a href="https://www.frontendmentor.io/challenges">Access all of the challenges here!!</a><br>
     <br><table>
     <thead>
         <tr>
