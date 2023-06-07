@@ -1,0 +1,259 @@
+/* CSS Reset & General Configs */
+
+:root {
+  --color-1: hsl(217, 19%, 35%);
+  --color-2: hsl(214, 17%, 51%);
+  --color-3: hsl(212, 23%, 69%);
+  --color-4: hsl(210, 46%, 95%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+  background: var(--color-4);
+  display: grid;
+  height: 100vh;
+  place-items: center;
+  overflow: hidden;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  display: inline-block;
+}
+
+button {
+  border: none;
+}
+
+/* Article component Styles */
+
+main {
+  place-self: end center;
+}
+
+.container {
+  display: flex;
+  max-width: 48.125em;
+  margin: 0 auto;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.container-img img {
+  height: 100%;
+  width: 18.75rem;
+  object-fit: cover;
+  object-position: left;
+  border-radius: 8px 0px 0px 8px;
+}
+
+.container-info {
+  padding: 1.875rem 1.25rem 1.875rem 2.5rem;
+}
+
+.info-heading {
+  color: var(--color-1);
+  font-size: 1.25rem;
+  line-height: 1.45;
+  margin-bottom: 0.875rem;
+  max-width: 28ch;
+}
+
+.info-paragraph {
+  color: var(--color-2);
+  font-size: 0.875rem;
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
+  max-width: 45ch;
+}
+
+.container-data {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  justify-content: start;
+  position: relative;
+}
+
+.avatar {
+  width: 40px;
+  border-radius: 50%;
+}
+
+.user-post {
+  padding-left: 1.25rem;
+}
+
+.person-name {
+  color: var(--color-1);
+  font-size: 0.875em;
+}
+
+.post-date {
+  color: var(--color-3);
+  font-size: 0.8125em;
+}
+
+.share-icon {
+  background: var(--color-4);
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 1.25rem;
+}
+
+button:focus {
+  outline: none;
+  border: 2px dotted var(--color-1);
+}
+
+.social-media {
+  background: var(--color-1);
+  display: none;
+  align-items: center;
+  position: absolute;
+  gap: 20px;
+  top: -80px;
+  right: -90px;
+  padding: 1.25rem 1.875rem;
+  border-radius: 8px;
+}
+
+.social-media::after {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 20px;
+  background: var(--color-1);
+  position: absolute;
+  top: 50px;
+  right: 115px;
+  transform: rotate(45deg);
+}
+
+.social-media > span {
+  text-transform: uppercase;
+  font-size: 0.8125rem;
+  color: var(--color-3);
+  letter-spacing: 0.25rem;
+}
+
+.social-media.active,
+.social-media.mobile {
+  display: flex;
+  transition: 0.5s;
+}
+
+.social-media.mobile {
+  width: 21.875em;
+  height: 4.4375em;
+  gap: 20px;
+  top: -10px;
+  right: -30px;
+  border-radius: 0px 0px 8px 8px;
+}
+
+.social-media.mobile::after {
+  display: none;
+}
+
+.social-media.mobile ~ .share-icon {
+  background: var(--color-2);
+  z-index: 1;
+}
+
+/* Attributions */
+
+.attribution {
+  place-self: center;
+  background: var(--color-1);
+  padding: 4px 8px;
+  color: var(--color-4);
+  border-radius: 24px;
+}
+
+a {
+  display: inline-block;
+  color: #DFE5EB;
+}
+
+@media (max-width: 56.25em) {
+  .social-media.active {
+    flex-direction: column;
+    gap: 20px;
+    right: 70px;
+    padding: 1.25rem;
+  }
+
+  .social-media.active::after {
+    background: var(--color-1);
+    top: 90px;
+    right: -10px;
+    transform: rotate(45deg);
+  }
+}
+
+@media (max-width: 50em) {
+  .container {
+    flex-direction: column;
+    max-width: 21.875em;
+    box-shadow: inset 0px -5px var(--color-4);
+  }
+
+  .container-img img {
+    border-radius: 8px 8px 0px 0px;
+    width: 100%;
+  }
+
+  .container-info {
+    padding: 1.875rem;
+  }
+
+  .container-info {
+    padding: 1.875rem 1.875rem 1.25rem;
+  }
+
+  .info-paragraph {
+    max-width: none;
+  }
+
+  .container-data {
+    padding-top: 5px;
+  }
+}
+
+@media (max-width: 31.25em) {
+  .container {
+    max-width: 18.75em;
+  }
+
+  .social-media.mobile {
+    width: 18.75em;
+  }
+
+  .share-icon {
+    margin-right: 0;
+  }
+  
+  .attribution {
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    width: 12.5em;
+  }
+}
