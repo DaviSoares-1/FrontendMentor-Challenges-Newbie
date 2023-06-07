@@ -25,20 +25,18 @@ Users should be able to:
 - See the social media share links when they click the share icon
 
 <h1 align="center">
-    <img alt="Preview Desktop" title="Preview Desktop" src="./../.github/screenshot-desktop.png" />
+    <img alt="Preview Desktop" title="Preview Desktop" src="https://github.com/DaviSoares-1/FrontendMentor-Challenges-Newbie/blob/main/10%23-Article-preview-component/.github/screenshot-desktop.png" />
 </h1>
 
-<br>
-
 <h1 align="center">
-    <img alt="Preview Mobile" title="Preview Mobile" src="../.github/screenshot-mobile.png" />
+    <img alt="Preview Mobile" title="Preview Mobile" src="https://github.com/DaviSoares-1/FrontendMentor-Challenges-Newbie/blob/main/10%23-Article-preview-component/.github/screenshot-mobile.png" />
 </h1>
 
 <br>
 
 ### 🌐 Links
 
-- Solution URL: []
+- Solution URL: [https://www.frontendmentor.io/solutions/article-preview-component-css3-vanilla-js-responsive-acessible-TL29fj7ZkV]
 - Live Site URL: [https://article-post-component.netlify.app/]
 
 ## My process
