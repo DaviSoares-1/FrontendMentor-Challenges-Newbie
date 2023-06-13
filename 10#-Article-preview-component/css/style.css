@@ -153,28 +153,8 @@ button:focus {
   letter-spacing: 0.25rem;
 }
 
-.social-media.active,
-.social-media.mobile {
+.social-media.active {
   display: flex;
-  transition: 0.5s;
-}
-
-.social-media.mobile {
-  width: 21.875em;
-  height: 4.4375em;
-  gap: 20px;
-  top: -10px;
-  right: -30px;
-  border-radius: 0px 0px 8px 8px;
-}
-
-.social-media.mobile::after {
-  display: none;
-}
-
-.social-media.mobile ~ .share-icon {
-  background: var(--color-2);
-  z-index: 1;
 }
 
 /* Attributions */
@@ -195,7 +175,6 @@ a {
 @media (max-width: 56.25em) {
   .social-media.active {
     flex-direction: column;
-    gap: 20px;
     right: 70px;
     padding: 1.25rem;
   }
@@ -234,6 +213,25 @@ a {
 
   .container-data {
     padding-top: 5px;
+  }
+
+  .social-media.active {
+    flex-direction: row;
+    width: 21.875em;
+    height: 4.4375em;
+    gap: 20px;
+    top: -10px;
+    right: -30px;
+    border-radius: 0px 0px 8px 8px;
+  }
+  
+  .social-media.active::after {
+    display: none;
+  }
+  
+  .social-media.active ~ .share-icon {
+    background: var(--color-2);
+    z-index: 1;
   }
 }
 
