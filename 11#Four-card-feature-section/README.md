@@ -27,8 +27,6 @@ Users should be able to:
     <img alt="Preview Desktop" title="Preview Desktop" src="https://github.com/DaviSoares-1/FrontendMentor-Challenges-Newbie/blob/main/11%23Four-card-feature-section/.github/screenshot-desktop.png" />
 </h1>
 
-<br>
-
 <h1 align="center">
     <img alt="Preview Mobile" title="Preview Mobile" src="https://github.com/DaviSoares-1/FrontendMentor-Challenges-Newbie/blob/main/11%23Four-card-feature-section/.github/screenshot-mobile.png" />
 </h1>
