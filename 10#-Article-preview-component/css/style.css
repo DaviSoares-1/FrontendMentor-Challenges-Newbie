@@ -240,7 +240,7 @@ a {
     max-width: 18.75em;
   }
 
-  .social-media.mobile {
+  .social-media.active {
     width: 18.75em;
   }
 
@@ -249,9 +249,9 @@ a {
   }
   
   .attribution {
-    display: flex;
-    flex-direction: column;
-    place-items: center;
-    width: 12.5em;
+    border-radius: 0;
+    width: 100%;
+    place-self: end center;
+    text-align: center;
   }
 }
