@@ -24,20 +24,20 @@ Users should be able to:
 - View the optimal layout for the component depending on their device's screen size
 
 <h1 align="center">
-    <img alt="Preview Desktop" title="Preview Desktop" src="" />
+    <img alt="Preview Desktop" title="Preview Desktop" src="https://github.com/DaviSoares-1/FrontendMentor-Challenges-Newbie/blob/main/11%23Four-card-feature-section/.github/screenshot-desktop.png" />
 </h1>
 
 <br>
 
 <h1 align="center">
-    <img alt="Preview Mobile" title="Preview Mobile" src="" />
+    <img alt="Preview Mobile" title="Preview Mobile" src="https://github.com/DaviSoares-1/FrontendMentor-Challenges-Newbie/blob/main/11%23Four-card-feature-section/.github/screenshot-mobile.png" />
 </h1>
 
 <br>
 
 ### 🌐 Links
 
-- Solution URL: []
+- Solution URL: [https://www.frontendmentor.io/solutions/four-card-feature-section-resposive-acessible-flexgrid-html5-hDbtkxr0Qr]
 - Live Site URL: [https://feature-cards-section.netlify.app/]
 
 ## My process
