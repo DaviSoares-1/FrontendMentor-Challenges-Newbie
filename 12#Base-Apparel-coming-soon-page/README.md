@@ -30,26 +30,26 @@ Users should be able to:
 - The email address is not formatted correctly
 
 <h1 align="center">
-    <img alt="Preview Desktop" title="Preview Desktop" src="" />
+    <img alt="Preview Desktop" title="Preview Desktop" src="https://github.com/DaviSoares-1/FrontendMentor-Challenges-Newbie/blob/main/12%23Base-Apparel-coming-soon-page/.github/screenshot-desktop.png" />
 </h1>
 
 <br>
 
 <h1 align="center">
-    <img alt="Preview Desktop" title="Preview Tablet" src="" />
+    <img alt="Preview Desktop" title="Preview Tablet" src="https://github.com/DaviSoares-1/FrontendMentor-Challenges-Newbie/blob/main/12%23Base-Apparel-coming-soon-page/.github/screenshot-tablet.png" />
 </h1>
 
 <br>
 
 <h1 align="center">
-    <img alt="Preview Mobile" title="Preview Mobile" src="" />
+    <img alt="Preview Mobile" title="Preview Mobile" src="https://github.com/DaviSoares-1/FrontendMentor-Challenges-Newbie/blob/main/12%23Base-Apparel-coming-soon-page/.github/Screenshot-mobile.png" />
 </h1>
 
 <br>
 
 ### 🌐 Links
 
-- Solution URL: []
+- Solution URL: [https://www.frontendmentor.io/solutions/base-apparel-coming-soon-page-responsive-acessible-grid-es6-Ej_h36NKsO]
 - Live Site URL: [https://coming-soon-page-apparel.netlify.app/]
 
 ## My process
