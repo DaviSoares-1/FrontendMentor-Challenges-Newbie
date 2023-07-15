@@ -26,18 +26,18 @@ Users should be able to:
 - See a hover state on desktop for the Sign-Up call-to-action
 
 <h1 align="center">
-    <img alt="Preview Desktop" title="Preview Desktop" src="" />
+    <img alt="Preview Desktop" title="Preview Desktop" src="https://github.com/DaviSoares-1/FrontendMentor-Challenges-Newbie/blob/main/13%23Single-price-grid-component/.github/screenshot-desktop.jpg" />
 </h1>
 
 <h1 align="center">
-    <img alt="Preview Mobile" title="Preview Mobile" src="" />
+    <img alt="Preview Mobile" title="Preview Mobile" src="https://github.com/DaviSoares-1/FrontendMentor-Challenges-Newbie/blob/main/13%23Single-price-grid-component/.github/screenshot-mobile.png" />
 </h1>
 
 <br>
 
 ### 🌐 Links
 
-- Solution URL: []
+- Solution URL: [https://www.frontendmentor.io/solutions/single-price-grid-component-responsive-acessible-grid-semantic-v1b1_FRuZR]
 - Live Site URL: [https://signup-price-component.netlify.app/]
 
 ## My process
