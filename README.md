@@ -123,6 +123,13 @@
             <td align="center">
             <a href="https://github.com/DaviSoares-1/FrontendMentor-Challenges-Newbie/tree/main/12%23Base-Apparel-coming-soon-page"><img width="300px" src="https://github.com/DaviSoares-1/FrontendMentor-Challenges-Newbie/blob/main/12%23Base-Apparel-coming-soon-page/.github/desktop-preview.jpg" /></a></td>
         </tr>
+       <tr>
+            <td>13</td>
+            <td><a href="https://github.com/DaviSoares-1/FrontendMentor-Challenges-Newbie/tree/main/13%23Single-price-grid-component">Single Price Grid Component</a>               </td>
+            <td>15/07/23</td>
+            <td align="center">
+            <a href="https://github.com/DaviSoares-1/FrontendMentor-Challenges-Newbie/tree/main/13%23Single-price-grid-component"><img width="300px" src="https://github.com/DaviSoares-1/FrontendMentor-Challenges-Newbie/blob/main/13%23Single-price-grid-component/.github/desktop-preview.jpg" /></a></td>
+        </tr>
     </tbody>
 </table></p>
 
