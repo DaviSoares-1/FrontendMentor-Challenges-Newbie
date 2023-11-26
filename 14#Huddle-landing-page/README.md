@@ -26,19 +26,19 @@ Users should be able to:
 - See a hover state on desktop for the Sign-Up call-to-action
 
 <h1 align="center">
-    <img alt="Preview Desktop" title="Preview Desktop" src="" />
+    <img alt="Preview Desktop" title="Preview Desktop" src="https://github.com/DaviSoares-1/FrontendMentor-Challenges-Newbie/blob/main/14%23Huddle-landing-page/.github/Screenshot-desktop.png" />
 </h1>
 
 <h1 align="center">
-    <img alt="Preview Mobile" title="Preview Mobile" src="" />
+    <img alt="Preview Mobile" title="Preview Mobile" src="https://github.com/DaviSoares-1/FrontendMentor-Challenges-Newbie/blob/main/14%23Huddle-landing-page/.github/Screenshot-mobile.png" />
 </h1>
 
 <br>
 
 ### 🌐 Links
 
-- Solution URL: []
-- Live Site URL: []
+- Solution URL: [https://www.frontendmentor.io/solutions/huddle-landing-page-css-3-flexbox-acessible-semantic-markup-7-S8GI08pH]
+- Live Site URL: [https://huddle-register-page.netlify.app/]
 
 ## My process
 
