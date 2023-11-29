@@ -1,0 +1,21 @@
+@use '../abstracts/' as *;
+
+.card {
+  place-self: end center;
+  margin: 0 auto;
+  max-width: relativeUnit(500, em);
+  border-radius: 24px;
+  display: flex;
+  flex-direction: column;
+  padding: relativeUnit(40, em);
+  background-image: linear-gradient(60deg, #29323c 0%, 
+  #485563 100%);
+  color: #fff;
+  grid-row: 1;
+  grid-column: 1;
+  @include responsive {
+    max-width: relativeUnit(400, em);
+    padding: relativeUnit(20, em);
+    margin: 0 relativeUnit(10, rem);
+  }
+}

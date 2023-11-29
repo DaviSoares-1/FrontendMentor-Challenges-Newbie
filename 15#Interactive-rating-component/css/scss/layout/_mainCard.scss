@@ -1,0 +1,93 @@
+@use '../abstracts/' as *;
+
+.rating-State {
+  .card-icon {
+    max-width: max-content;
+    padding: relativeUnit(15, rem);
+    border-radius: 50%;
+    background: $neutral-color-3;
+    margin-bottom: relativeUnit(30, rem);
+  }
+  .card-heading {
+    margin-bottom: relativeUnit(10, rem);
+    @include responsive {
+      text-align: center;
+    }
+  }
+  .card-paragraph {
+    max-width: 35ch;
+    margin-bottom: relativeUnit(30, rem);
+    @include fontType;
+    @include responsive {
+      text-align: center;
+    }
+  }
+  .submit-btn {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.15em;
+    background: $primary-color;
+    box-shadow: 0px 4px 0 -4px $primary-color,
+    0px 4px 0 0 #C95D0F;
+    border-radius: 24px;
+    padding: relativeUnit(12, rem) relativeUnit(32, rem);
+    transition: 0.3s;
+    &:hover {
+      background: $neutral-color-white;
+      color: $primary-color;
+      box-shadow: 0px 4px 0 -3px #FFFFFF,
+    0px 4px 0 0 #CCCCCC;
+    }
+  }
+}
+
+.rating-list {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: relativeUnit(20, rem);
+  margin-bottom: relativeUnit(40, rem);
+  li {
+    flex: 1;
+    text-align: center;
+    padding: relativeUnit(20, rem);
+    border-radius: 20%;
+    background: $neutral-color-3;
+    color: $neutral-color-2;
+    box-shadow: 0px 2px 0 -2px $neutral-color-3,
+    0px 2px 0 0 $neutral-color-4;
+    font-weight: 700;
+    transition: 0.3s;
+    cursor: pointer;
+    @include responsive {
+      flex-grow: 0;
+      min-width: 25%;
+    }
+    &:hover {
+      background: $primary-color;
+      color: $neutral-color-white;
+      box-shadow: 0px 2px 0 -2px $primary-color,
+      0px 2px 0 0 #C95D0F;
+    }
+  }
+  @include responsive {
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+// Script Styles
+
+li.active {
+  background: $neutral-color-1;
+  color: $neutral-color-white;
+  box-shadow: 0px 2px 0 -2px $neutral-color-1,
+  0px 2px 0 0 $neutral-color-2;
+  &:hover {
+    background: $neutral-color-1;
+    color: $neutral-color-white;
+    box-shadow: 0px 2px 0 -2px $neutral-color-1,
+    0px 2px 0 0 $neutral-color-2;
+  }
+}

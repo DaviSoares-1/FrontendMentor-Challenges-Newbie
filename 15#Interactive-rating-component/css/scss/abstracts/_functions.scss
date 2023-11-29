@@ -1,0 +1,7 @@
+@function relativeUnit($size, $unit, $context: 16) {
+  @if ($unit == rem) {
+    @return calc($size / $context) * 1rem;
+  } @else if ($unit == em) {
+    @return calc($size / $context) * 1em;
+  }
+}
