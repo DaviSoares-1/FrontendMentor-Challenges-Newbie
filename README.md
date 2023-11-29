@@ -137,6 +137,13 @@
             <td align="center">
             <a href="https://github.com/DaviSoares-1/FrontendMentor-Challenges-Newbie/tree/main/14%23Huddle-landing-page"><img width="300px" src="https://github.com/DaviSoares-1/FrontendMentor-Challenges-Newbie/blob/main/14%23Huddle-landing-page/.github/desktop-preview.jpg" /></a></td>
         </tr>
+        <tr>
+            <td>15</td>
+            <td><a href="https://github.com/DaviSoares-1/FrontendMentor-Challenges-Newbie/tree/main/15%23Interactive-rating-component">Interactive rating component solution</a>               </td>
+            <td>29/11/23</td>
+            <td align="center">
+            <a href="https://github.com/DaviSoares-1/FrontendMentor-Challenges-Newbie/tree/main/15%23Interactive-rating-component"><img width="300px" src="https://github.com/DaviSoares-1/FrontendMentor-Challenges-Newbie/blob/main/15%23Interactive-rating-component/.github/desktop-preview.jpg" /></a></td>
+        </tr>
     </tbody>
 </table></p>
 
