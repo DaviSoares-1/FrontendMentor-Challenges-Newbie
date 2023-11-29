@@ -1,0 +1,23 @@
+@use '../abstracts/' as *;
+
+.footer {
+  place-self: center;
+  p {
+    background: $neutral-color-3;
+    padding: relativeUnit(16, rem) relativeUnit(32, rem);
+    border-radius: 24px;
+    @include fontType;
+    @include responsive {
+      border-radius: 0;
+      text-align: center;
+    }
+  }
+  a {
+    display: inline-block;
+    color: $primary-color;
+    text-decoration: underline;
+    &:hover {
+      color: $neutral-color-white;
+    }
+  }
+}
